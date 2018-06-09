@@ -125,7 +125,7 @@ fmt_items <- function(x, .max = 6) {
     x[.max] <- more
   }
 
-  glue::collapse(glue("- {x}"), "\n")
+  paste0(glue("- {x}"), "\n", collapse = "")
 }
 
 parse_args <- function(x) {
