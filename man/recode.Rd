@@ -122,4 +122,7 @@ recode_factor(char_vec, !!!level_key)
 \code{\link[=na_if]{na_if()}} to replace specified values with a \code{NA}.
 \code{\link[=coalesce]{coalesce()}} to replace missing values with a specified value.
 \code{\link[tidyr]{replace_na}} to replace \code{NA} with a value
+
+Other Recoding variables: \code{\link{na_if}}
 }
+\concept{Recoding variables}

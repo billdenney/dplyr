@@ -3,6 +3,7 @@
 #' This is a translation of the SQL command `NULL_IF`. It is useful
 #' if you want to convert an annoying value to `NA`.
 #'
+#' @family Recoding variables
 #' @param x Vector to modify
 #' @param y Value to replace with NA
 #' @return A modified version of `x` that replaces any values that

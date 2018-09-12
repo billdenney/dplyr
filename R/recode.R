@@ -12,6 +12,7 @@
 #' the order of replacements. See the [forcats](http://forcats.tidyverse.org/)
 #' package for more tools for working with factors and their levels.
 #'
+#' @family Recoding variables
 #' @param .x A vector to modify
 #' @param ... Replacements. For character and factor `.x`, these should be named
 #'   and replacement is based only on their name. For numeric `.x`, these can be
